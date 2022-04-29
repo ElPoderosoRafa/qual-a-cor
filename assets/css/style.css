@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  /* border: solid 1px red; */
+  border-bottom: solid 1px rgb(109, 109, 206);
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  /* border: solid 1px red; */
+}
+
+header a:hover {
+  font-size: 1.1rem;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  /* border: solid 1px red; */
+}
+
+.container {
+  /* border: solid 1px red; */
+  margin: auto;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.btnColor {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  border-style: none;
+  cursor: pointer;
+}
